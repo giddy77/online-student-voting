@@ -1,0 +1,27 @@
+How to Run an Online System
+1. Fisrt install Xampp server on your PC preferrably Version 5.6.38
+2. After Xampp has installed, double click on it from the start button for it to open.
+3. When the application opens, start Apache and MySql
+4. Minimize xampp to your task bar 
+5. Extract the system zipped file on your computer Desktop
+6. Copy the extracted folder to LocalDisk C/xampp/htdocs folder
+7. Open your browser (Mozilla Firefox, Google Chrome, Brave e.t.c)
+8. Type localhost and press Enter
+9. On the far right end, click on phpMyAdmin
+10. A page will open, click on Databases at the top
+11. Right below, you will see create database, fill in the database name be sure to use the name of the sql file in your system folder(voting).
+12. After typing the database name, click on create
+13. Click on import at the top
+14. Click the choose file button and select the .sql file from your system folder
+15. click on Go at the bottom and wait for the database to be imported.
+16. After it is imported, open a new tab on the browser and type localhost/Onlinevote/ and hit Enter
+17. The system should now open and you should use the given credentials to Login
+
+
+Passwords
+Admin
+username: admin
+password: admin
+
+Student
+For student login to admin and register a student as a voter
